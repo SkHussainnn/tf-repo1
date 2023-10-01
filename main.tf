@@ -12,6 +12,6 @@ terraform {
 
 resource "aws_instance" "tf_new_inst" {
         subnet_id = "subnet-02baa8d1f25c28d2d"
-        ami_id = "ami-0df7a207adb9748c7"
+        ami = "ami-0df7a207adb9748c7"
         instance_type = "t2.micro"
 }
